@@ -1,0 +1,220 @@
+*
+{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+.hero-section
+{
+    background-color: #1F2937;
+    width:100%
+}
+
+/* navigation and logo */
+header
+{
+    width:80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+/* SABOR. logo */
+header #brand-logo
+{
+    font-size: 24px;
+    color:#F9FAF8;
+    font-weight: bold;
+}
+header #main-navbar
+{
+    font-size: 18px;
+}
+header #main-navbar ul
+{
+    list-style: none;
+}
+header #main-navbar li 
+{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+/* clickable links */
+header #main-navbar li a
+{
+    text-decoration: none;
+    color:#E5E7EB;
+}
+header #main-navbar li a:hover
+{
+    color:#6c6c6c;
+}
+
+/* text and image */
+section
+{
+    width:80%;
+    margin:auto;
+    display: flex;
+    padding: 100px 0px;
+}
+section .hero-content
+{
+    flex:1;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+section .hero-content h2
+{
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+
+/* subtext */
+section .hero-content p
+{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+/* sign up button */
+#hero-btn
+{
+    margin-top: 10px;
+    background-color: #3882F6;
+    padding: 5px 30px;
+    font-size: 20px;
+    color:white;
+    border-radius: 5px;
+    border-color: transparent;
+}
+section .hero-image
+{
+    background-color: #6c757e;
+    color: white;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* the four(4) boxes in features section*/
+.features-section
+{
+    width:70%;
+    margin:auto;
+}
+.features-section h2
+{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding:50px 0px;
+}
+.features-section .features-grid
+{
+    display: flex;
+    justify-content: space-around;
+}
+.features-section .features-grid .item
+{
+    border: 5px solid #4680d4;
+    border-radius: 15px;
+    height: 175px;
+    width: 175px;
+}
+.features-section .features-grid p
+{
+    width: 150px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+/* quote section */
+.quote-section
+{
+    background-color: #e5e7eb;
+}
+.quote-section .quote-placeholder
+{
+    width: 60%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.quote-section .quote-placeholder .quote
+{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color:#1F2937
+}
+.quote-section .quote-placeholder .author
+{
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
+    float:right;
+}
+
+/* blue bar section at the bottom */
+.call-section
+{
+    width: 80%;
+    margin: auto;
+    background-color:#3882F6;
+    border-radius: 5px;
+    margin: 50px auto;
+}
+.call-section .call-placeholder
+{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.call-section .call-placeholder .call-text
+{
+    padding: 50px 0px;
+}
+.call-section .call-placeholder h3
+{
+    color:white;
+}
+.call-section .call-placeholder p
+{
+    color:#dadada;
+}
+.call-section .call-placeholder .btn2
+{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: end;
+}
+.call-section .call-placeholder .btn2 button
+{
+    color:white;
+    border-color: white;
+    border-radius: 5px;
+    padding: 5px 30px;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+/* the footer */
+footer
+{
+    background-color: #1F2937;
+    width:100%
+}
+footer p
+{
+    text-align: center;
+    padding: 25px 0px;
+    color: white;
+}
+
