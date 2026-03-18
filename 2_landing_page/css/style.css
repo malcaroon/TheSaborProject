@@ -21,11 +21,12 @@ header
 }
 
 /* SABOR. logo */
-header #brand-logo
+header #brand-logo a
 {
     font-size: 24px;
     color:#F9FAF8;
     font-weight: bold;
+    text-decoration: none
 }
 header #main-navbar
 {
